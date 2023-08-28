@@ -98,14 +98,17 @@ int main() {
         if (num == 1) {
             justPrintHelloWorld();
         } else if (num == 2) {
+            cout << "Enter number: ";
             cin >> a;
             result = getNextEvenNumber(a);
             cout << result;
         } else if (num == 3) {
+            cout << "Enter number: ";
             cin >> a;
             result = evenNumberOrNot(a);
             cout << result;
         } else if (num == 4) {
+            cout << "Enter number: ";
             cin >> a;
             result = isSymmetryOrNot(a);
             if (result == 1) {
@@ -115,10 +118,12 @@ int main() {
             }
             cout << result;
         } else if (num == 5) {
+            cout << "Enter number: ";
             cin >> a;
             result = getSummaOfDigits(a);
             cout << result;
         } else if (num == 6) {
+            cout << "Enter number: ";
             cin >> a;
             result = getNumberOfDigits(a);
             cout << result;
